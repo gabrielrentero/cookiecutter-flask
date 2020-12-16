@@ -26,6 +26,7 @@ spec:
     required:
       - full_name
       - email
+      - github_username
       - project_name
       - app_name
       - project_short_description
@@ -39,6 +40,10 @@ spec:
         type: string
         description: Unique name of the component
       email:
+        title: Name
+        type: string
+        description: Unique name of the component
+      github_username:
         title: Name
         type: string
         description: Unique name of the component

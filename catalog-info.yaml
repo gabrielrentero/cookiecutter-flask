@@ -7,6 +7,6 @@ metadata:
     github.com/project-slug: {{cookiecutter.storePath | jsonify}}
     backstage.io/techdocs-ref: github:https://github.com/{{cookiecutter.storePath}}
 spec:
-  type: website
+  type: app
   lifecycle: experimental
   owner: "gab"
