@@ -9,4 +9,4 @@ metadata:
 spec:
   type: app
   lifecycle: experimental
-  owner: "gab"
+  owner: {{cookiecutter.owner}}
