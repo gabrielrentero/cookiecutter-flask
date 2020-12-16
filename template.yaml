@@ -40,38 +40,38 @@ spec:
         type: string
         description: Unique name of the component
       email:
-        title: Name
+        title: Email
         type: string
         description: Unique name of the component
       github_username:
-        title: Name
+        title: Github User
         type: string
         description: Unique name of the component
       project_name:
-        title: Name
+        title: Project Name
         type: string
         description: Unique name of the component
       app_name:
-        title: Name
+        title: App Name
         type: string
         description: Unique name of the component
-      project_short_description":
-        title: Name
+      project_short_description:
+        title: Project Short Description
         type: string
         description: Unique name of the component
       use_pipenv:
-        title: Name
+        title: Pipenv
         type: string
         description: Unique name of the component
       python_version:
-        title: Name
+        title: Python Version
         type: string
         description: Unique name of the component
       node_version:
-        title: Name
+        title: Node Version
         type: string
         description: Unique name of the component
       use_heroku:
-        title: Name
+        title: Heroku
         type: string
         description: Unique name of the component
