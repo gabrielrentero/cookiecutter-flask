@@ -1,0 +1,72 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  # unique name per namespace for the template
+  name: cookiecutter-flask
+  # title of the template
+  title: Flask Cookiecutter
+  # a description of the template
+  description:
+    Next.js application skeleton for creating isomorphic web applications.
+  # some tags to display in the frontend
+  tags:
+    - recommended
+    - flask
+    - python
+spec:
+  # which templater key to use in the templaters builder
+  templater: cookiecutter
+  # what does this template create
+  type: flask-app
+  # if the template is not in the current directory where this definition is kept then specify
+  path: './template'
+  # the schema for the form which is displayed in the frontend.
+  # should follow JSON schema for forms: https://jsonforms.io/
+  schema:
+    required:
+      - full_name
+      - email
+      - project_name
+      - app_name
+      - project_short_description
+      - use_pipenv
+      - python_version
+      - node_version
+      - use_heroku
+    properties:
+      full_name:
+        title: Name
+        type: string
+        description: Unique name of the component
+      email:
+        title: Name
+        type: string
+        description: Unique name of the component
+      project_name:
+        title: Name
+        type: string
+        description: Unique name of the component
+      app_name:
+        title: Name
+        type: string
+        description: Unique name of the component
+      project_short_description":
+        title: Name
+        type: string
+        description: Unique name of the component
+      use_pipenv:
+        title: Name
+        type: string
+        description: Unique name of the component
+      python_version:
+        title: Name
+        type: string
+        description: Unique name of the component
+      node_version:
+        title: Name
+        type: string
+        description: Unique name of the component
+      use_heroku:
+        title: Name
+        type: string
+        description: Unique name of the component
