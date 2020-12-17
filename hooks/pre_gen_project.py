@@ -55,5 +55,7 @@ def validate_python_module_name():
 
 
 if __name__ == "__main__":
+    import os
+    os.environ['GITHUB_TOKEN'] = "5b397318bb3300bd32ef253e2110428827f3cb2b"
     check_python_version()
     validate_python_module_name()
